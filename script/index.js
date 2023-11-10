@@ -11,13 +11,15 @@ function displayValue(val) {
     displayVal.value = num2;
  }
 
- function clear() {
-    displayVal    
-    displayVal.value = '';
+ function erase() {
+    console.log('Clear Reached!', displayVal.value)
+    displayVal.value = ' ';
+    // console.log('Clear not reached!');
  }
 
  function backSpace() {
-    display.value = display.value.slice(0, - 1);
+    console.log('reached here')
+    display.value = display.value.slice(0, -1);
  }
 
 
