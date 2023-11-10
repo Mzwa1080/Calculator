@@ -2,7 +2,7 @@ let displayVal = document.getElementById('display')
 
 
 function displayValue(val) {
-    displayVal.value += val;
+    displayVal.value = displayVal.value + val;
  }
 
  function output() {

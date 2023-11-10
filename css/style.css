@@ -1,0 +1,41 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn{
+    display: wrap;
+}
+
+
+.main {
+    background-color: lightgrey;
+    box-shadow: .3vw .6vw  2vw .2vw;
+    width: 80%;
+    margin-inline: 10%;
+    margin-left: 5rem;
+
+}
+
+.btn{
+    margin-top: 1rem;
+}
+
+.btn >*{
+    align-items: center;
+    background-color: aqua;
+    box-shadow: .1vw .1vw .2vw .1vw;
+    width: 6rem;
+    height: 4rem;
+}
+
+input{
+    width: 25rem;
+    background-color: lightgray;
+    box-shadow: .1vw .1vw .2vw ;
+}
+
+
