@@ -24,6 +24,10 @@
     margin-top: 1rem;
 }
 
+#button:hover {
+    background-color: #eaeaea;
+  }
+
 .btn >*{
     align-items: center;
     background-color: aqua;
