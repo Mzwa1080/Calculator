@@ -1,7 +1,6 @@
 let displayVal = document.getElementById('output');
 let sum = '';
 
-
 function displayValue(val) {
     displayVal.value = displayVal.value + val;
  }
